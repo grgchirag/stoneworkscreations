@@ -1,0 +1,123 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.color-primary{
+    color: #305f88;
+}
+.color-dark{
+    color: #0E2E50;
+}
+.bckgrnd-primary{
+    background-color: #00B98E;
+}
+.bckgrnd-light{
+    background-color: #e8edf1;
+}
+.bckgrnd-dark{
+    background-color: #0E2E50;
+    transition: 1s;
+}
+.bckgrnd-dark:hover{
+    background-color: #204c7b;
+    color: aliceblue;
+    transition: 1s;
+}
+.bckground-grey{
+    background-color: rgb(151, 151, 151);
+}
+.br-10{
+    border-radius: 10px;
+}
+.display-7{
+    font-size: 22px;
+}
+.color-lightgrey{
+    color: rgb(158, 156, 156);
+    font-weight: 600;
+}
+.bg-design-decor{
+    background-image: url('background_design_and_decor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.font-size-auto{    
+    font-size: 150%;
+}
+.font-size-autooffice{    
+    font-size: 100%;
+}
+@media screen and (max-width : 1000px){
+    .font-size-autooffice{
+        font-size: 85%;
+    }
+    .font-size-autoliving{
+        font-size: 95%;
+    }
+}
+@media screen and (max-width : 980px){
+    
+    .font-size-autoliving{
+        font-size: 85%;
+    }
+}
+@media screen and (max-width : 902px){
+    .font-size-auto{
+        font-size: 100%;
+    }
+    .font-size-autooffice{
+        font-size: 80%;
+    }
+    .font-size-autoliving{
+        font-size: 75%;
+    }
+}
+@media screen and (  max-width : 820px){
+    .font-size-autooffice{
+        font-size: 75%;
+    }
+    .font-size-autoliving{
+        font-size: 80%;
+    }
+    .font-size-autoliving{
+        font-size: 65%;
+    }
+}
+@media screen and (  max-width : 767px){
+    .font-size-autooffice{
+        font-size: 100%;
+    }
+    .font-size-autoliving{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width : 580px){
+    .font-size-auto{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width : 515px){
+    .font-size-auto{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width : 430px){
+    .font-size-auto{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width : 370px){
+    .font-size-auto{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width : 300px){
+    .font-size-auto{
+        font-size: 40%;
+    }
+}
+@media screen and (max-width : 270px){
+    .font-size-auto{
+        font-size: 30%;
+    }
+}
